@@ -1,9 +1,9 @@
-# Задание 3.01
+# task 3.01
 
 name: str = "Ivan"
 print("Hello, {}!".format(name))
 
-# Задание 3.02
+# task 3.02
 
 first_number = input("Input the first integer number: ")
 second_number = input("Input the second integer number: ")
@@ -12,7 +12,7 @@ second_number = int(second_number)
 sum_of_numbers = first_number + second_number
 print("{} плюс {} равно {}".format(first_number, second_number, sum_of_numbers))
 
-# Задание 3.03
+# task 3.03
 
 string: str = "Hello World"
 string_list = string.split(" ")
@@ -20,7 +20,7 @@ string_list = string_list[::-1]
 string_list = " ".join(string_list)
 print("! {} !".format(string_list))
 
-# Задание 3.04
+# task 3.04
 
 string_one: str = "good mood"
 if len(string_one) % 3 == 0:
@@ -28,7 +28,7 @@ if len(string_one) % 3 == 0:
 else:
     print(string_one)
 
-# Задание 3.05
+# task 3.05
 
 string_two: str = "secret code"
 meaning: str = "code"
@@ -37,7 +37,7 @@ if meaning.upper() in string_two.upper():
 else:
     print("No")
 
-# Задание 3.06
+# task 3.06
 
 age = input("Input your age: ")
 age = float(age)
@@ -48,7 +48,7 @@ elif age < 18:
 else:
     print("Beer")
 
-# Задание 3.07
+# task 3.07
 
 string_three: str = "homework - 03"
 length = len(string_three)
@@ -59,7 +59,7 @@ elif length < 5:
 else:
     print("It is five")
 
-# Задание 3.08
+# task 3.08
 
 number = 7
 if type(number) == int or type(number) == float:
@@ -67,7 +67,7 @@ if type(number) == int or type(number) == float:
 else:
     pass
 
-# Задание 3.09
+# task 3.09
 
 print("Input the coefficients for the equation")
 print("ax2 + bx + c = 0")
@@ -86,7 +86,7 @@ elif discriminant == 0:
 else:
     print("No roots")
 
-# Задание 3.10
+# task 3.10
 
 ruble = input("Input number of rubles: ")
 kopeck = input("Input number of kopecks: ")
@@ -113,7 +113,7 @@ else:
     else:
         print("{} копейки".format(kopeck))
 
-# Задание 3.11
+# task 3.11
 
 mail_name = input("Input mail name: ")
 if "gmail.com" in mail_name:
