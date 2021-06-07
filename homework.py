@@ -1,4 +1,4 @@
-# Задание 1.1
+# task 1.1
 a: int = 5
 print(type(a))
 print(a)
@@ -12,7 +12,7 @@ d: bool = True
 print(type(d))
 print(d)
 
-# Задание 1.2
+# task 1.2
 example_one = ((17/2)*3) + 2
 print(example_one)
 example_two = 2 + ((17/2)*3)
@@ -24,7 +24,7 @@ print(example_four)
 example_five = ((17/2) % 2) * (3**3)
 print(example_five)
 
-# Задание 1.3
+# task 1.3
 neighbour_one: int = 41
 neighbour_two: int = 38
 neighbour_three: int = 54
