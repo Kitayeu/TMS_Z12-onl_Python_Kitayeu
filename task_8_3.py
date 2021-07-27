@@ -1,4 +1,4 @@
-from math import factorial, pow, fabs
+from math import factorial, pow, fabs, pi
 
 
 def sin1(x: float, eps: float):
@@ -13,6 +13,8 @@ def sin1(x: float, eps: float):
         n: int = 0
         flag = True
         result: float = 0
+        while x > pi * 2:
+            x -= pi * 2
         while flag is True:
             argument = (pow(-1, n) / factorial(2 * n + 1)) * pow(x, 2 * n + 1)
             if fabs(argument) > eps:
@@ -26,7 +28,7 @@ def sin1(x: float, eps: float):
 
 
 epsilon = [0.1, 0.01, 0.001, 0.0001, 0.00001, 0.000001]
-x: int = 5
+x: int = 40
 for eps in epsilon:
     print(f"ε = {eps}")
     sin1(x, eps)
